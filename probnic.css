@@ -1,0 +1,47 @@
+body {
+    margin: 80px 100px 100px 140px;
+    background-color: #DBD6D3;
+    font-family: 'Century Gothic', sans-serif;
+}
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    color: black;
+    font-family: 'DRUZHOK';
+    font-size: 110px;
+    text-align: right;
+}
+
+.catalog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 372px); 
+    gap: 115px; 
+
+}
+.item {
+    text-align: left;
+    max-height: 500px;
+}
+.item img {
+    width: 100%; 
+    height: auto;
+}
+.item-group {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.item-text {
+    font-size: 24px;
+    color: black;
+}
+
+.item-price {
+    font-size: 24px;
+    color: black;
+}
